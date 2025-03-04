@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: "Poppins", "Roboto", sans-serif;
+    text-transform: capitalize;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.1)), url("img/coffee-4518354_1920.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 20px;
+    margin-bottom: 120px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.list {
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.title {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.title:hover {
+    filter: drop-shadow(0 0 1px #e29a9a);
+    letter-spacing: 2px;
+}
+
+.title span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #e29a9a;
+}
+
+.nav-content a {
+    border: 1px solid #fff;
+    padding: 4px 16px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: rgb(107, 54, 107);
+    background: #d0e74a;
+    box-shadow: 0 0 5px #e29a9a;
+}
+
+.main-class {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.title-main {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.main-qoute {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.info {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.btn{
+    background:rgb(107, 54, 107) ;
+    text-transform: capitalize;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 20px;
+    margin-top: 30px;
+    outline: none;
+    padding: 4px 16px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    gap: 10px;
+    
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn:hover{
+    color: rgb(107, 54, 107);
+    background: #d0e74a;
+    box-shadow: 0 0 5px #e29a9a;
+}
+
+/* itams page */
+
+/* Center the container and allow wrapping */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Card Styling */
+.card {
+    width: 100%;
+    max-width: 350px;
+    background: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add hover effect */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Image Styling */
+.img-card {
+    width: 100px
+    display: block;
+    margin: 20px auto; /* Centers image */
+}
+img{
+    height: 150px;
+}
+
+/* Title Styling */
+.item-title {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/* Description Styling */
+.card-description {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+/* Button Styling */
+.btn-items {
+    display: block;
+    background: rgb(107, 54, 107);
+    text-transform: capitalize;
+    width: 100%;
+    max-width: 250px;
+    margin: 20px auto; /* Centers the button */
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+/* Anchor inside button */
+.btn-items a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+/* Hover Effect */
+.btn-items:hover {
+    background: #d0e74a;
+    box-shadow: 0 0 8px #e29a9a;
+}
+
+/* Ensure text color remains consistent */
+.btn-items:hover a {
+    color: rgb(107, 54, 107);
+}
+.card-title{
+    text-align: center;
+    color: #fff;
+    margin: 30px;
+    font-weight: 500;
+}
+.description{
+    margin: 30px;
+    color: #fff;
+}
